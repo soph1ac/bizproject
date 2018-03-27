@@ -43,9 +43,27 @@ p {
         padding:3px;
 }
 
-#logo{
-    width:auto;
-    max-width:200px;
+nav ul {
+        padding: 20px;
+    list-style: none;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: #d5d3dd;
+}
+
+nav a:hover {
+    color: #d5d3dd;
+    background: #1e7ad2;
+        text-decoration: none;
 }
 
 #hero{
@@ -53,16 +71,38 @@ p {
     background-size:
 }
 
-#s1 h1{
-    
+#s1{
+    text-align: center;
 }
 
-.column {
+#s1 h1{
+    color:#969696;
+    margin-left:-75px;
+    padding: 20px;
+    display: inline-block;
+}
 
-    float: left; width:450px; }
+#llc{
+        margin-left:-10px;
+    color:#969696;
+    display: inline-block;
+}
 
-.clear{
+#logo{
+    width:auto;
+    max-width:200px;
+}
 
-    clear:both;
+#carousel-example-generic{
+	position:relative;
+}
 
+.carousel-caption h1{
+	position:absolute;
+	top:-750px;
+	width:100%;
+	text-align: center;
+	color:#fff;
+	text-shadow:0px 0px 20px rgba(0,0,0,1);
+	
 }
