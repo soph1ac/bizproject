@@ -1,3 +1,44 @@
+* {
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Mukta Mahee','Arial', sans-serif;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: #fff;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 16px;
+    line-height:1.5;
+}
 .navbar-brand{
         padding:3px;
 }
@@ -12,3 +53,16 @@
     background-size:
 }
 
+#s1 h1{
+    
+}
+
+.column {
+
+    float: left; width:450px; }
+
+.clear{
+
+    clear:both;
+
+}
