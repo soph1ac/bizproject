@@ -41,7 +41,19 @@ p {
 }
 .navbar-brand{
         padding:3px;
+    height:auto
 }
+
+
+#navbar-header{
+    background-color: transparent
+}
+
+.navbar-brand{
+        padding:3px;
+    height:auto
+}
+
 
 nav ul {
         padding: 20px;
@@ -57,14 +69,20 @@ nav a {
     text-decoration: none;
     padding: 5px 10px;
     border-radius: 10px;
-    background: #d5d3dd;
+/*    background: #d5d3dd;*/
 }
 
 nav a:hover {
     color: #d5d3dd;
     background: #1e7ad2;
+    background color:transparent;
         text-decoration: none;
 }
+
+.navbar-brand a:hover {
+        background color:transparent;
+}
+
 
 #hero{
     background-image:url(.../img/here.jpg);
@@ -75,15 +93,34 @@ nav a:hover {
     text-align: center;
 }
 
-#s1 h1{
-    color:#969696;
-    margin-left:-75px;
-    padding: 20px;
-    display: inline-block;
+
+@media screen and (min-width: 700px) {
+    #solutions{
+    margin-left:50px;
+    color:#000;
+    display: inline;
+/*    text-align: center;*/
+/*    width: 320px;*/
+/*    max-width: 320px;*/
+/*
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    word-break: break-all;
+*/
+}
 }
 
+@media screen and (max-width: 700px) {
+#solutions{
+    margin-left:75px;
+    color:#000;
+    width:230px;
+    max-width: 230px;
+    }
+}
+    
 #llc{
-        margin-left:-10px;
+        margin-left:-385px;
     color:#969696;
     display: inline-block;
 }
@@ -91,7 +128,18 @@ nav a:hover {
 #logo{
     width:auto;
     max-width:200px;
+    margin-top: 25px;
 }
+
+#s1 h1{
+    color:#969696;
+    margin-left:100px;
+    margin-right: 375px;
+    padding: 20px;
+    display: inline-block;
+}
+
+
 
 #carousel-example-generic{
 	position:relative;
@@ -105,4 +153,61 @@ nav a:hover {
 	color:#fff;
 	text-shadow:0px 0px 20px rgba(0,0,0,1);
 	
+}
+
+
+
+footer{
+        text-align: center;
+}
+
+
+#hero {
+	background-image: url(../img/stock-photo-businessman-pressing-a-solution-concept-button-357968705.jpg);
+	background-size: 100% auto;
+	background-attachment: fixed;
+	background-position: center center;
+	padding: 80px 0px 0px 0px;
+	height: 265vh;
+/*	display: flex;*/
+}
+
+
+#s2 h2{
+    text-align: center
+
+}
+
+footer h1{
+    text-align: center;
+        color:#fff;
+	text-shadow:0px 0px 20px rgba(0,0,0,1);
+        font-size: 55px;
+}
+
+
+#map{
+    padding:30px;
+}
+
+#map iframe{
+    width:100%;
+}
+
+#contact{
+    align-content: right;
+                color:#fff;
+	text-shadow:0px 0px 20px rgba(0,0,0,1);
+}
+
+#contact label{
+                    color:#fff;
+                font-size: 24px;
+            padding-bottom: 20px;
+            display: inline-block;
+            width: 100%;
+}
+
+#contact p{
+                    color:#fff;
 }
