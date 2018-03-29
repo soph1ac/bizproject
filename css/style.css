@@ -62,6 +62,7 @@ nav a {
     border-radius: 10px;
 }
 
+@media screen and (min-width: 700px) {
 .navbar-nav>li>a{
         padding: 5px 10px;
     border-radius: 10px;
@@ -69,12 +70,20 @@ nav a {
     color:#969696;
     
 }
+}
+
+@media screen and (max-width: 700px) {
+.navbar-nav>li>a{
+        padding: 5px 10px;
+    text-align: center;
+}
+}
 
 /*
-.navbar-nav>li>a:hover {
-            background: #969696;
-    color: #e6e6e6;
-}
+    .navbar-nav>li>a:hover {
+                background: #969696;
+        color: #e6e6e6;
+    }
 */
 
 #hero {
@@ -179,6 +188,7 @@ nav a {
         text-align: center;
         color: #fff;
         text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+        font-size:50px;
     }
 }
 
