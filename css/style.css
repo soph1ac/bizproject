@@ -90,6 +90,16 @@ nav a:hover {
     text-align: center;
 }
 
+.nav navbar-nav navbar-right li a{
+        padding: 5px 10px;
+    border-radius: 10px;
+            background: #d5d3dd;
+    
+}
+
+.nav navbar-nav navbar-right li a:hover {
+    
+}
 
 @media screen and (min-width: 700px) {
     #solutions {
@@ -102,6 +112,18 @@ nav a:hover {
 @media screen and (max-width: 700px) {
     #solutions {
         display: none;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #solutions-mobile {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #solutions-mobile {
+        display: inline;
     }
 }
 
@@ -187,6 +209,27 @@ nav a:hover {
     }
 }
 
+@media screen and (min-width: 700px) {
+.proof{
+	width:calc(50% - 30px);
+	border:1px solid #969696;
+	background:#e6e6e6;
+	padding:40px;
+	margin:15px;
+	border-radius:10px;
+}
+}
+
+@media screen and (max-width: 700px) {
+.proof{
+	border:1px solid #969696;
+	background:#e6e6e6;
+	padding:40px;
+	margin:15px;
+	border-radius:10px;
+}
+}
+
 footer {
     text-align: center;
 }
@@ -211,6 +254,29 @@ footer {
     color: #fff;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
     font-size: 55px;
+}
+
+@keyframes iconflip {
+	0% {
+		transform: rotateY(0deg);
+	}
+	100% {
+		transform: rotateY(360deg);
+	}
+}
+
+#s3 div div div h2 div{
+        display:inline-block;
+    width:auto;
+/*    text-align: center;*/
+
+}
+
+#s3 div div div:hover>h2>div{
+  -webkit-animation: iconflip 2s;
+  -moz-animation: iconflip 2s;
+  -o-animation: iconflip 2s;
+  animation: iconflip 2s;
 }
 
 
@@ -253,7 +319,13 @@ footer a {
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
+footer a:hover{
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    text-decoration: none;
+}
+
 footer small {
     color: #969696;
-    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
+    text-shadow: 0px 0px 20px rgba(255, 255, 255, 254);
 }
