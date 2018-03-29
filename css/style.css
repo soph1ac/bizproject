@@ -96,7 +96,8 @@ nav a:hover {
 
 @media screen and (min-width: 700px) {
     #solutions{
-    margin-left:50px;
+/*    margin-left:3.125%;*/
+    margin-left:2.125%;
     color:#000;
     display: inline;
 /*    text-align: center;*/
@@ -112,7 +113,7 @@ nav a:hover {
 
 @media screen and (max-width: 700px) {
 #solutions{
-    margin-left:75px;
+    margin-left:4.68755%;
     color:#000;
     width:230px;
     max-width: 230px;
@@ -120,7 +121,8 @@ nav a:hover {
 }
     
 #llc{
-        margin-left:-385px;
+        margin-left:-41%;
+/*            margin-left:-360px;*/
     color:#969696;
     display: inline-block;
 }
@@ -128,13 +130,15 @@ nav a:hover {
 #logo{
     width:auto;
     max-width:200px;
-    margin-top: 25px;
+    margin-top: 1.5625%;
 }
 
 #s1 h1{
     color:#969696;
-    margin-left:100px;
-    margin-right: 375px;
+/*    margin-left:100px;*/
+        margin-left:0.25%;
+    margin-right: 431px;
+/*    margin-right: 2%;*/
     padding: 20px;
     display: inline-block;
 }
@@ -210,4 +214,12 @@ footer h1{
 
 #contact p{
                     color:#fff;
+}
+
+input{
+    color:#000
+}
+
+textarea{
+    color:#000
 }
