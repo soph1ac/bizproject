@@ -41,11 +41,6 @@ p {
     line-height: 1.5;
 }
 
-
-#navbar-header {
-    background-color: transparent
-}
-
 .navbar-brand {
     padding: 3px;
     height: auto
@@ -63,23 +58,24 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     padding: 5px 10px;
     border-radius: 10px;
-    /*    background: #d5d3dd;*/
 }
 
-nav a:hover {
-    color: #d5d3dd;
-    background: #1e7ad2;
-    background color: transparent;
-    text-decoration: none;
+.navbar-nav>li>a{
+        padding: 5px 10px;
+    border-radius: 10px;
+            background: #e6e6e6;
+    color:#969696;
+    
 }
 
-.navbar-brand a:hover {
-    background color: transparent;
+/*
+.navbar-nav>li>a:hover {
+            background: #969696;
+    color: #e6e6e6;
 }
-
+*/
 
 #hero {
     background-image: url(.../img/here.jpg);
@@ -88,17 +84,6 @@ nav a:hover {
 
 #s1 {
     text-align: center;
-}
-
-.nav navbar-nav navbar-right li a{
-        padding: 5px 10px;
-    border-radius: 10px;
-            background: #d5d3dd;
-    
-}
-
-.nav navbar-nav navbar-right li a:hover {
-    
 }
 
 @media screen and (min-width: 700px) {
