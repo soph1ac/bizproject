@@ -79,12 +79,9 @@ nav a {
     }
 }
 
-/*
-    .navbar-nav>li>a:hover {
-                background: #969696;
-        color: #e6e6e6;
-    }
-*/
+button.navbar-toggle.collapsed{
+    margin-top: 3.4375%;
+}
 
 #hero {
     background-image: url(.../img/here.jpg);
@@ -292,6 +289,19 @@ footer {
         /* For IE8 and earlier */
         padding-bottom: 3px;
         width: 49%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .transbox {
+        /*  margin: 30px;*/
+        background-color: #ffffff;
+        border: 1px solid black;
+        opacity: 0.8;
+        filter: alpha(opacity=60);
+        /* For IE8 and earlier */
+        padding-bottom: 3px;
+/*        width: 49%;*/
     }
 }
 
