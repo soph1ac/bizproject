@@ -270,6 +270,11 @@ footer {
     animation: iconflip 2s;
 }
 
+#s3 div div div:hover {
+	background: #FFF9CB;
+	box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, .75);
+	text-shadow: none;
+}
 
 #map {
     padding: 30px;
@@ -284,7 +289,7 @@ footer {
         /*  margin: 30px;*/
         background-color: #ffffff;
         border: 1px solid black;
-        opacity: 0.8;
+        opacity: 0.75;
         filter: alpha(opacity=60);
         /* For IE8 and earlier */
         padding-bottom: 3px;
