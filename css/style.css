@@ -231,11 +231,14 @@ button.navbar-toggle.collapsed{
 
 #s3 img{
     width:75%;
+    margin-top:-6%;
 }
 
+/*
 #s3 h3{
-margin-top:-15%;
+margin-top:-55%;
 }
+*/
 
 #carousel-example-generic {
     position: relative;
