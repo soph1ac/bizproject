@@ -68,6 +68,10 @@ nav a {
         border-radius: 10px;
         background: #e6e6e6;
         color: #969696;
+/*
+        margin-top: 25%;
+        margin-right: -10%;
+*/
 
     }
 }
@@ -82,13 +86,6 @@ nav a {
 button.navbar-toggle.collapsed{
     margin-top: 3.4375%;
 }
-
-/*
-#hero {
-    background-image: url(.../img/here.jpg);
-    background-size:
-}
-*/
 
 .navbar-default{
     background-color: #fff;
@@ -198,7 +195,7 @@ button.navbar-toggle.collapsed{
 @media screen and (min-width: 768px) {
     .transvid {
         position:absolute;
-        background-color: rgba(10,10,10,0.5);
+        background-color: rgba(10,10,10,0.4);
         border: 1px solid black;
 /*
         opacity: 0.5;
@@ -211,7 +208,6 @@ button.navbar-toggle.collapsed{
         bottom: 0px;
         left: 0px;
         right: 0px;
-
     }
 }
 
@@ -230,8 +226,10 @@ button.navbar-toggle.collapsed{
 }
 
 #s3 img{
-    width:75%;
-    margin-top:-6%;
+    width:50%;
+    margin-top:-5%;
+    margin-left: 25%;
+    
 }
 
 /*
@@ -296,7 +294,7 @@ footer {
 }
 
 #hero {
-    background-image: url(../img/stock-photo-businessman-pressing-a-solution-concept-button-357968705.jpg);
+    background-image: url(../img/axel-ahoi-50659-unsplash.jpg);
     background-size: 100% auto;
     background-attachment: fixed;
     background-position: center center;
@@ -310,7 +308,7 @@ footer {
     text-align: center
 }
 
-#hero h1 {
+#hero h2 {
     text-align: center;
     color: #fff;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
@@ -346,7 +344,7 @@ footer {
 }
 
 #map {
-    padding: 30px;
+    padding: 40px;
 }
 
 #map iframe {
@@ -359,10 +357,10 @@ footer {
         background-color: #ffffff;
         border: 1px solid black;
         opacity: 0.75;
-        filter: alpha(opacity=60);
+        filter: alpha(opacity=75);
         /* For IE8 and earlier */
         padding-bottom: 3px;
-        width: 48%;
+        width: 50%;
     }
 }
 
@@ -424,6 +422,6 @@ footer a:hover {
 }
 
 footer small {
-    color: #969696;
-    text-shadow: 0px 0px 20px rgba(255, 255, 255, 254);
+    color: #fff;
+    text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
