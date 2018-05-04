@@ -179,6 +179,13 @@ button.navbar-toggle.collapsed{
 }
 */
 
+#call {
+    position:absolute;
+    text-align: right;
+    margin-top: -112px;
+    right: 10px;
+}
+
 #s2 {
     text-align: center;
 }
@@ -296,7 +303,7 @@ footer {
     background-attachment: fixed;
     background-position: center center;
     padding: 80px 0px 0px 0px;
-    height: 265vh;
+/*    height: 265vh;*/
     /*	display: flex;*/
 }
 
