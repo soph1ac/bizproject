@@ -144,7 +144,7 @@ button.navbar-toggle.collapsed{
         text-align: right;
         /*    margin-top: -112px;*/
         margin-top: 4.7%;
-        right: 10px;
+        padding-right: 1.5%;
     }
 }
 
@@ -154,7 +154,7 @@ button.navbar-toggle.collapsed{
         text-align: right;
         /*    margin-top: -112px;*/
         margin-top: -16.3%;
-        padding-right: 5px;
+        padding-right: 1.5%;
     }
 }
 
