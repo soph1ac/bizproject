@@ -89,7 +89,7 @@ button.navbar-toggle.collapsed{
 }
 */
 
-.navbar-default{
+.navbar-default {
     background-color: #fff;
     border-color: #fff;
 }
@@ -138,76 +138,128 @@ button.navbar-toggle.collapsed{
 }
 */
 
-#call {
-    position:absolute;
-    text-align: right;
-    margin-top: -112px;
-    right: 10px;
+@media screen and (min-width: 700px) {
+    #call {
+        /*    position:absolute;*/
+        text-align: right;
+        /*    margin-top: -112px;*/
+        margin-top: 4.7%;
+        right: 10px;
+    }
 }
 
-#call a {
-/*    padding: 5px 10px;*/
-    color: #000;
-    font-size: 24px;
+@media screen and (max-width: 700px) {
+    #call {
+        /*    position:absolute;*/
+        text-align: right;
+        /*    margin-top: -112px;*/
+        margin-top: -16.3%;
+        padding-right: 5px;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    #call a {
+        color: #000;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #call a {
+        color: #000;
+        font-size: 16px;
+    }
+}
+
+
+@media screen and (min-width: 700px) {
+    #call a {
+        color: #000;
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #call a {
+        color: #000;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #call h4 {
+        font-size: 16px;
+    }
 }
 
 #s2 {
     text-align: center;
 }
 
-#vid iframe{
+#vid iframe {
     width: 100%;
-    height:100vh;
+    height: 100vh;
 }
 
-
-
-@media screen and (min-width: 768px) {
-    .transvid {
-        position:absolute;
-        background-color: rgba(10,10,10,0.4);
-        border: 1px solid black;
-/*
+.transvid {
+    position: absolute;
+    background-color: rgba(10, 10, 10, 0.4);
+    border: 1px solid black;
+    /*
         opacity: 0.5;
         filter: alpha(opacity=60);
          For IE8 and earlier 
 */
-/*        padding-bottom: 3px;*/
-/*        width: 100%;*/
-        top: 0px;
-        bottom: 0px;
-        left: 0px;
-        right: 0px;
-    }
+    /*        padding-bottom: 3px;*/
+    /*        width: 100%;*/
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
 }
 
 .captions {
-    position:absolute;
-    top:50px;
-    color:#fff;
-/*    left:200px;*/
+    position: absolute;
+    top: 50px;
+    color: #fff;
+    /*    left:200px;*/
     text-align: center;
-    width:100%;
+    width: 100%;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
 }
 
-.caption h2{
-    top:150px;
+
+@media screen and (max-width: 768px) {
+    .captions h1 {
+        font-size: 44px;
+    }
 }
 
-.btn, input[type='submit'] {
-    position:relative;
+@media screen and (max-width: 768px) {
+    .captions h2 {
+        font-size: 38px;
+    }
+}
+
+.caption h2 {
+    top: 150px;
+}
+
+.btn,
+input[type='submit'] {
+    position: relative;
     text-decoration: none;
     background: #b3b3b3;
     padding: 10px 20px;
     display: inline-block;
     border-radius: 10px;
-    color:#eb2123;
+    color: #eb2123;
     text-shadow: none;
 }
 
-.captions a{
-    margin-top:55px;
+.captions a {
+    margin-top: 55px;
 }
 
 .btn:hover,
@@ -216,11 +268,11 @@ input[type='submit']:hover {
     background: #eb2123;
 }
 
-#s3 img{
-    width:50%;
-    margin-top:-5%;
+#s3 img {
+    width: 50%;
+    margin-top: -5%;
     margin-left: 25%;
-    
+
 }
 
 /*
@@ -289,7 +341,7 @@ footer {
     background-attachment: fixed;
     background-position: center center;
     padding: 80px 0px 35px 0px;
-/*    height: 265vh;*/
+    /*    height: 265vh;*/
     /*	display: flex;*/
 }
 
@@ -347,7 +399,7 @@ footer {
         /*  margin: 30px;*/
         background-color: rgba(255, 255, 255, 0.75);
         border: 1px solid black;
-/*
+        /*
         opacity: 0.75;
         filter: alpha(opacity=75);
          For IE8 and earlier 
@@ -361,13 +413,13 @@ footer {
     .transbox {
         /*  margin: 30px;*/
         background-color: rgba(255, 255, 255, 0.75);
-        border: 1px solid black;
-/*
+        /*        border: 1px solid black;*/
+        /*
         opacity: 0.8;
         filter: alpha(opacity=60);
 */
         /* For IE8 and earlier */
-        padding-bottom: 3px;
+        padding: 3px 3px;
     }
 }
 
@@ -385,26 +437,48 @@ h3 {
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 254);
 }
 
-#contact label {
-    color: #000;
-    font-size: 24px;
-    padding-bottom: 20px;
-    display: inline-block;
-    width: 100%;
-    font-weight: bold;
-    margin-left:25%;
+@media screen and (min-width: 768px) {
+    #contact label {
+        color: #000;
+        font-size: 24px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 75%;
+        font-weight: bold;
+        margin-left: 25%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    #contact label {
+        color: #000;
+        font-size: 24px;
+        padding-bottom: 20px;
+        display: inline-block;
+        width: 75%;
+        font-weight: bold;
+        margin-left: 15%;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .row {
+        width: 103.5%;
+    }
 }
 
 #contact p {
     color: #fff;
 }
 
-#last{
+#last {
     padding-bottom: 30px;
 }
 
-#last input{
-left:40%;
+#last input {
+    left: 40%;
 
 }
 
@@ -413,13 +487,13 @@ input {
 }
 
 textarea {
-  color: #000;
-  width: 250px;
-/*  height: 150px;*/
+    color: #000;
+    width: 250px;
+    /*  height: 150px;*/
 }
 
-footer{
-    background:#353535;
+footer {
+    background: #353535;
 }
 
 /*
@@ -438,8 +512,8 @@ footer a:hover {
 footer small {
     color: #fff;
     text-shadow: 0px 0px 20px rgba(0, 0, 0, 1);
-    top:-10%;
-/*    background: #a13c3e;*/
+    top: -10%;
+    /*    background: #a13c3e;*/
 }
 
 footer a {
